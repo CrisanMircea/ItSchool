@@ -113,7 +113,7 @@ body {
 .border {
   border: 1px;
   border-style: groove;
-  border-color: white;
+  border-color: eaeaea;
   border-radius: 5px;
   text-align: left;
   padding-left: 15px;
@@ -189,4 +189,37 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 2em;
+}
+
+.trainerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.trainer {
+  width: 25%;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px;
+  border-style: groove;
+  border-color: #eaeaea;
+  border-radius: 5px;
+}
+
+.coursesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1.75rem;
+}
+
+.courses {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  border-style: groove;
+  border: 1px;
+  border-radius: 5px;
+  border-color: #666;
 }
