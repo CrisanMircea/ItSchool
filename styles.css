@@ -260,3 +260,54 @@ body {
   border-color: #eaeaea;
   border-radius: 5px;
 }
+
+.containerInfoGen {
+  display: flex;
+  margin-bottom: 1.75rem;
+  justify-content: space-evenly;
+}
+
+.containerInfo {
+  width: 50%;
+  padding: 1rem;
+}
+
+.liInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  padding: 1.75rem;
+  border-bottom: 1px solid #ddd;
+  border-style: bottom border;
+}
+
+.label {
+  margin-bottom: 0.25rem;
+  color: #2b2922;
+  font-size: 0.875rem;
+}
+
+.input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  color: #2b2922;
+  font-size: 0.875rem;
+}
+
+.inputMsj {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  color: #2b2922;
+  font-size: 0.875rem;
+  height: 100px;
+}
+
+.textInfo {
+  color: #8e8e8e;
+  font-size: 0.875rem;
+}
